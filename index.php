@@ -36,4 +36,4 @@ foreach($video as $w => $ml) {
     echo ('<br/>') ;
 }
 
-echo ('<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ebUyVh1fDqs?si=NP3MGr3zVuHm65sJ&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>') ;
+echo ('<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ebUyVh1fDqs?si=NP3MGr3zVuHm65sJ&autoplay=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>') ;
