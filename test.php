@@ -11,7 +11,7 @@ else{
 }
 echo ('<br/>') ;
 
-if ($s1 > $s2) {
+if ($s1 > $s2 > $s3) {
     $max = $s1 ;
 }
 elseif ($s2 > $s3) {
