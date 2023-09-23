@@ -1,44 +1,47 @@
 <?php
-$a = 123 ;
-$b = 456 ;
-$c = 789 ;
-$so = array (123,456,789) ; //item has Value = 123
+/* $so1 = 10 ;
+$so2 = 20 ;
+$so3 = 50 ;
 
-$monhoc = array ('van', 'toan', 'anh', 'hoa') ;
+$max = $so1 ;
+if($so1 < $so2) {$max = $so2 ;}
+if($so1 < $so3) {$max = $so3 ;}
 
-foreach($monhoc as $k => $n) {
-    echo $k. " ". $n ;
-    echo ('<br/>') ;
+echo 'Số lớn nhất trong 3 số '.$so1.", ".$so2.", ".$so3." là ".$max ; */
+
+
+function ten($ten)
+{
+$ten = " Ta Nguyen Khang" ;
+return $ten ;
 }
+$chuoi_goc = "Đây là tên em " ;
+echo ten($chuoi_goc) ;
+echo "<br/>";
+echo $chuoi_goc ;
+echo('<br/>') ;
 
-echo ('<br/>') ;
 
-$profile = array(
-    'name' => 'Ta Nguyen Khang',
-    'birth' => '05/07/2005',
-    'job' => 'hoc sinh ' ,
-    'email'=> 'bebosua05@gmail.com'
-    );
-foreach($profile as $o => $r) {
-    echo $o. " ". $r ;
-    echo ('<br/>') ;
+function tinh_dien_tich($a,$b)
+{
+$s = $a * $b ;
+return $s ;
 }
+echo tinh_dien_tich(2,5) ;
+echo('<br/>') ;
 
-echo ('<br/>') ;
-$video = array (
-    'title' => ' ten video',
-    'url' => ' https://youtube.com/shorts/ebUyVh1fDqs?feature=share',
-    'created_at' => ' ngay tao video',
-    'author' => ' Low G'
-);
-foreach($video as $w => $ml) {
-    echo $w. "". $ml;
-    echo ('<br/>') ;
+function tinh_chu_vi($g,$h)
+{
+$d = ($g + $h) * 2 ;
+return $d ;
 }
+echo tinh_chu_vi(3,4) ;
+echo('<br/>') ;
 
-echo ('<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=SGW5rtBSPlA-HTBv&amp;controls=0&amp;list=PLlO_6bjAV9AaBdcZhmEes-dwWHTA5g-TR&loop=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>') ;
 
-echo ('<br/>') ;
-echo ('<a href="test.php"> About Us </a>') ;
-echo ('<br/>') ;
-echo ('<a href="heheh.php"> Heheh </a>') ;
+function tim_x($y,$z) {
+    $result = -($y) / $z;
+    return $result ;
+}
+$kq = tim_x(50,100) ;
+echo ($y.'x+'.$z.'= 0'.'<br/>') ;
